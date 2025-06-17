@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  gap: 20px;
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: greenyellow;
+}
+
+span#giga {
+  color: orangered;
+}
+
+#about-section {
+  width: 60ch;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  gap: 100px;
+  padding-top: 10px;
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: burlywood;
+}
+.images-container {
+  display: flex;
+  gap: 50px;
+}
+
+img {
+  border-radius: 30px;
+  object-fit: cover;
+}
